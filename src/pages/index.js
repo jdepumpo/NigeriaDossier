@@ -20,6 +20,7 @@ const IndexPage = (props) => {
   console.log(subjects);
   return (
     <Layout>
+      <h4 style={{textAlign: 'center', fontFamily: 'courier, monospace'}}>by Joe DePumpo</h4>
         <h2 style={{textAlign: 'center', fontFamily: 'courier, monospace'}}>Subjects</h2>
         <Accordion>
         {subjects.map((arr, i) => (
